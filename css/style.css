@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #FFFEF4;
+    /* white-space: nowrap; */
+    
+}
+
+
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    
+}
+#about p{
+    font-size:1.5rem;
+    padding:10px;
+    
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.header{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+.header p{
+    font-size: 1.5rem;
+}
+
+img{
+    border-radius: 50%;
+
+}
+
+
+section{
+    padding: 20px;
+    border-bottom: 5px solid hsla(0, 0%, 93%, 0.253);
+}
+
+.navigation{
+height: 10vw;
+width:auto;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.accessibility{
+    position: absolute;
+    left: -10000px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 8%;
+    padding-right:8%
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 8%;
+    padding-right:8%;
+   
+}
+
+nav ul li,h1 a{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px;
+}
+
+
+ a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+a:visited,a:hover{
+    color: white;
+}
+a:hover,a:focus{
+    color: dodgerblue;
+}
+a:active{
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        display: none;
+    }
+}
