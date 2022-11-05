@@ -176,12 +176,13 @@ footer {
   margin: 10px 10px;
 }
 
-footer img:hover,.goup img:hover {
+footer img:hover,
+.goup img:hover {
   border-radius: 25%;
   box-shadow: 0px 0px 11px #8637e0;
 }
 
-.icon{
+.icon {
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -190,8 +191,6 @@ footer img:hover,.goup img:hover {
   width: 48px;
   height: auto;
 }
-
-
 
 .studyinfo {
   display: flex;
@@ -242,7 +241,7 @@ footer img:hover,.goup img:hover {
   right: 20px;
   z-index: 10;
 }
-.goup img{
+.goup img {
   width: 48px;
   height: auto;
   background-color: #191d22;
@@ -272,7 +271,7 @@ footer img:hover,.goup img:hover {
     position: static;
     flex-direction: column;
   }
-  .items h2{
+  .items h2 {
     font-size: 2rem;
   }
   li {
