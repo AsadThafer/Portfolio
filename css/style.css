@@ -11,12 +11,14 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 7vh;
 }
+body {
+  background-color: #191d22;
+}
 
 .cont {
   max-width: 1200px;
   margin: auto;
 }
-
 nav {
   display: flex;
   flex-direction: row;
@@ -47,11 +49,10 @@ nav {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 10px 0px;
   line-height: 2.1rem;
   text-align: justify;
-  /* background-color:hsla(0, 92%, 5%, 0.486); */
 }
 
 .about img {
@@ -68,24 +69,14 @@ p {
 
 section {
   padding: 20px;
-
   width: auto;
 }
 section h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-left: 5px solid #8c7ae6;
   background-color: #353b48;
   padding: 5px 10px;
   margin: 10px 0px;
-}
-
-.accessibility {
-  position: absolute;
-  left: -10000px;
-}
-
-body {
-  background-color: #191d22;
 }
 
 .items {
@@ -93,7 +84,6 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   padding-top: 10px;
-  list-style-type: none;
   font-size: 1.5rem;
 }
 .items > div {
@@ -239,9 +229,34 @@ footer img:hover,.goup img:hover {
   list-style-type: none;
 }
 .studyinfo div ul li {
-  font-size: 1.5rem;
-  list-style-type: none;
+  font-size: 1.2rem;
   padding: 0.5rem 0rem;
+  list-style-type: none;
+  padding-top: 0.5rem 0rem;
+  margin-top: 10px;
+}
+
+.goup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.goup img{
+  width: 48px;
+  height: auto;
+  background-color: #191d22;
+  border-radius: 25%;
+}
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.accessibility {
+  position: absolute;
+  left: -10000px;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,6 +266,7 @@ footer img:hover,.goup img:hover {
   nav {
     font-size: 0.85em;
     justify-content: space-around;
+    border-bottom: 1px #8c7ae6 solid;
   }
   .navigation {
     position: static;
@@ -263,7 +279,7 @@ footer img:hover,.goup img:hover {
     padding: 2%;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .study img {
     width: 100%;
@@ -283,9 +299,6 @@ footer img:hover,.goup img:hover {
     text-align: center;
     font-size: 1rem;
   }
-  nav {
-    border-bottom: 1px #8c7ae6 solid;
-  }
   h1 {
     font-size: 1.5rem;
   }
@@ -293,22 +306,4 @@ footer img:hover,.goup img:hover {
     height: 200px;
     margin-bottom: 1rem;
   }
-}
-
-.goup {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 10;
-}
-.goup img{
-  width: 48px;
-  height: auto;
-  background-color: #191d22;
-  border-radius: 25%;
-}
-.copyright {
-  font-size: 0.8rem;
-  text-align: center;
-  opacity: 0.8;
 }
