@@ -259,14 +259,6 @@ footer img:hover,.goup img:hover {
   .items h2{
     font-size: 2rem;
   }
-  .skills {
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 10px;
-    list-style-type: none;
-    flex-wrap: wrap;
-    align-items: center;
-  }
   li {
     padding: 2%;
   }
@@ -312,6 +304,8 @@ footer img:hover,.goup img:hover {
 .goup img{
   width: 48px;
   height: auto;
+  background-color: #191d22;
+  border-radius: 25%;
 }
 .copyright {
   font-size: 0.8rem;
