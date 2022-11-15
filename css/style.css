@@ -15,7 +15,7 @@ body {
   background-color: #191d22;
 }
 
-.cont {
+.container {
   max-width: 1200px;
   margin: auto;
 }
@@ -85,11 +85,12 @@ section h2 {
   padding-top: 10px;
   font-size: 1.5rem;
 }
-.items > div {
+.item {
+  display: flex;
+  flex-flow: column nowrap;
   width: 400px;
   margin: 10px 10px;
   background-color: #353b48;
-  position: relative;
 }
 
 .items > div h2 {
@@ -104,25 +105,22 @@ section h2 {
 
 .items p {
   padding: 10px;
-  padding-bottom: 3rem;
 }
 .items figure {
   background-color: #dcdde1;
   text-align: center;
 }
 
-.items p span {
-  display: block;
+.programming_language{
   text-align: center;
   width: 100%;
-  position: absolute;
+  margin: auto;
   bottom: 0px;
-  left: 0px;
-  padding: 0.7rem;
+  margin-bottom: 15px;
 }
 
 nav ul li,
-h1 a {
+.logo {
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
@@ -145,7 +143,12 @@ a:active {
   color: red;
 }
 
-h1 a,
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo,
 h2 a {
   text-shadow: 2px 2px blue;
 }
@@ -154,25 +157,22 @@ h1,
 h2 {
   text-shadow: 2px 2px rgb(112, 2, 2);
 }
-h4 {
+.study h2 {
   text-shadow: 2px 2px #353b48;
 }
 
-footer {
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 10px ;
   background-color: #353b48;
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
   border-top: 5px #8c7ae6 solid;
-}
-
-.contact {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  margin: 10px 10px;
 }
 
 footer img:hover,
@@ -212,7 +212,7 @@ footer img:hover,
   margin-top: 0px;
 }
 
-.studyinfo div h4 {
+.studyinfo div h2 {
   background-color: #8c7ae6;
   border: none;
   margin-top: 0px;
@@ -250,6 +250,7 @@ footer img:hover,
   font-size: 0.8rem;
   text-align: center;
   opacity: 0.8;
+  flex-basis: 100%;
 }
 
 .accessibility {
@@ -258,7 +259,7 @@ footer img:hover,
 }
 
 @media screen and (max-width: 768px) {
-  nav h1 {
+  .logo  {
     display: none;
   }
   nav {
@@ -284,7 +285,7 @@ footer img:hover,
     float: unset;
     margin: 0px;
   }
-  .studyinfo div h4,
+  .studyinfo div h2,
   .studyinfo div ul li {
     padding: 1rem;
     font-size: 1rem;
