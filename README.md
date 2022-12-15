@@ -1,7 +1,7 @@
 # HTML and CSS Portfolio
 This project showcases my skills in HTML and CSS by creating a portfolio site. My goal was to create a professional, responsive website that showcases my work and skills.
 
-this Task is a part of my internship at <a href="https://www.foothillsolutions.com" target="_blank">Foothill Technology Solutions, LLC.</a>
+this Task is a part of my internship at <a href="https://www.foothillsolutions.com">Foothill Technology Solutions, LLC.</a>
 
 ## Technologies Used
 - HTML
@@ -16,7 +16,7 @@ My design process for this project began with sketches of the website layout, fo
 
 ## Netlify Deployment: 
 
-<a href="https://asad-asad-portfolio.netlify.app" target="_blank">Asad Asad Portfolio</a>
+<a href="https://asad-asad-portfolio.netlify.app">Asad Asad Portfolio</a>
 
 ## Conclusion
 This project was a great opportunity to show off my HTML and CSS skills. I'm proud of the end result, and I'm confident that it serves as a great showcase of my work.
